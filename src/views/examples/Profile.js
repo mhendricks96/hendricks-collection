@@ -75,7 +75,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={profile}
+                            src="/Users/Michael/codefellow/301/hendricks-collection/src/assets/img/theme/michaelPicture.jpg"
                           />
                         </a>
                       </div>
@@ -124,20 +124,20 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Michael Hendricks{" "}
+                      <span className="font-weight-light">, 33</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Portland, Oregon
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Codefellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
