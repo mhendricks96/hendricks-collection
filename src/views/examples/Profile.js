@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/michael-picture.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -75,7 +75,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src="/Users/Michael/codefellow/301/hendricks-collection/src/assets/img/theme/michaelPicture.jpg"
+                            src={profile}
                           />
                         </a>
                       </div>
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">4</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">30</span>
+                          <span className="description">Collaborators</span>
                         </div>
                         <div>
                           <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="description">Years of experience</span>
                         </div>
                       </div>
                     </Col>
@@ -144,11 +144,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          Dedicated to making the world more accessible to everyone through software.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
