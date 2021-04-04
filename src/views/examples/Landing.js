@@ -81,8 +81,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                      Dedicated to making the world more accessible{" "}
+                      through software
                       </h1>
                       <p className="lead text-white">
                         The design system comes with four pre-built pages to
@@ -148,32 +148,40 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Gallery of Horns
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A react app to show off dozens of beautiful horned beasts. Allows user to keep track of favorite beasts and get a closer look by selecting a picture.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              React
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              Bootstrap
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Design
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="https://github.com/mhendricks96/gallery-of-horns"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Github
                           </Button>
+
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://kind-albattani-a6c772.netlify.app/"
+                            onClick={e => e.preventDefault()}
+                          >
+                            View Live
+                          </Button>
+
                         </CardBody>
                       </Card>
                     </Col>
