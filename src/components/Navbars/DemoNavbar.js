@@ -174,7 +174,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Follow us on Twitter
+                      Follow me on Twitter
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -190,7 +190,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
+                      Star me on Github
                     </UncontrolledTooltip>
                   </NavItem>
                   

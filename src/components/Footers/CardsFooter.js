@@ -39,35 +39,12 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+         
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for supporting me!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -86,7 +63,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
+                  Follow me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
@@ -100,7 +77,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Like me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
@@ -114,7 +91,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Follow me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
@@ -141,45 +118,16 @@ class CardsFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Michael Hendricks
                   </a>
                   .
                 </div>
               </Col>
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
-                  <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      Creative Tim
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      About Us
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
-                      target="_blank"
-                    >
-                      MIT License
-                    </NavLink>
-                  </NavItem>
+                
+                  
+              
                 </Nav>
               </Col>
             </Row>
